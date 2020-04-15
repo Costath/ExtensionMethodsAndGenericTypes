@@ -13,9 +13,9 @@ namespace Question2
         /// </summary>
         /// <param name="str"></param>
         /// <returns></returns>
-        public static int CountWords(this string str)
+        public static int CountWords(this System.Text.StringBuilder str)
         {
-            string[] words = str.Split(' ');
+            string[] words = str.ToString().Split(' ');
             int numberOfWords;
 
             if (words.Last() != "")

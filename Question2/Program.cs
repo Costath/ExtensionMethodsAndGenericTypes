@@ -17,7 +17,7 @@ namespace Question2
                 //("This is to test whether the extension method count can return a right answer or not");
                 (str);
 
-            int numberOfWords = sb.ToString().CountWords();
+            int numberOfWords = sb.CountWords();
 
             Console.WriteLine("\nThe given string has " + numberOfWords + " words.");
             Console.ReadKey();
